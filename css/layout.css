@@ -1,0 +1,32 @@
+.header-area {
+  background-color: #fff;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+.header-area .header-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding: 0 50px;
+  padding-top: 20px;
+}
+.header-area .header-box .STX-nav ul {
+  display: flex;
+  font-size: 19px;
+  font-weight: 700;
+  transform: translateX(-53px);
+}
+.header-area .header-box .STX-nav ul li a {
+  padding: 25px 55px;
+}
+.header-area .header-box .eng-kor {
+  font-size: 15px;
+  font-weight: 700;
+}
+.header-area .header-box .eng-kor span {
+  padding: 0 10px;
+}
