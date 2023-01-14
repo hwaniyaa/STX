@@ -53,22 +53,34 @@
         <div class="STX-itme--img">
           <img src="./images/img_business.png" alt="">
           <ul class="STX-item--txtSub">
-            <li>건축사업</li>
-            <li>주택사업</li>
-            <li>토목사업</li>
-            <li>플랜트/공작기계사업</li>
-            <li>해외사업</li>
+            <li>건축사업 <span></span></li>
+            <li>주택사업 <span></span></li>
+            <li>토목사업 <span></span></li>
+            <li>플랜트/공작기계사업 <span></span></li>
+            <li>해외사업 <span></span></li>
           </ul>
-          <div class="STX-itme--title">
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-            <a href="#"></a>
-          </div>
         </div>
       </div>
     </section>
   </main>
+  <script>
+
+    const STX = document.querySelectorAll(".STX-itme--img > .STX-item--txtSub > li")
+    const STXAll = document.querySelectorAll(".STX-itme--img > .STX-itme--title > a")
+      
+      // for(let i = 0; i < 5; i++) {
+      //   STX[i].addEventListener("mouseenter", function(e){
+      //     e.preventDefault();
+      //     for(let j = 0; j < 5; j++) {
+      //       if(i !== j) {
+      //         STXAll[j].classList.remove("on");
+      //       }
+      //     }
+      //     STXAll[i].classList.toggle("on");
+      //   });
+      // }
+
+    
+  </script>
 </body>
 </html>
